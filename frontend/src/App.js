@@ -14,6 +14,7 @@ import PlaceOrderScreen from './screens/PlaceOrderScreen';
 import OrderScreen from './screens/OrderScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import OrdersScreen from './screens/OrdersScreen';
+import logo  from '../public/images/icon.png'
 
 function App() {
   const userSignin = useSelector((state) => state.userSignin);
@@ -31,6 +32,7 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
+            <img src={logo} alt="" width="30" ></img>
             <Link to="/">Freecomerce</Link>
           </div>
           <div className="header-links">
