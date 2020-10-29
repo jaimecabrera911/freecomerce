@@ -1,7 +1,9 @@
 {
-  "name": "amazona",
+  "name": "freecommerce",
   "version": "1.0.0",
-  "description": "Demo : https://amazonaapp.herokuapp.com/",
+
+  "description": "freecommerce",
+
   "main": "index.js",
   "dependencies": {
     "aws-sdk": "^2.702.0",
@@ -33,16 +35,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basir/amazona.git"
+    "url": "git+https://github.com/jaimecabrera911/free-comerce.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/basir/amazona/issues"
+    "url": "https://github.com/jaimecabrera911/free-comerce.git"
   },
-  "homepage": "https://github.com/basir/amazona#readme",
+  "homepage": "https://github.com/jaimecabrera911/free-comerce.git",
   "engines": {
-    "node": "12.4.0",
+    "node": "12.18.3",
     "npm": "6.9.0"
   }
 }
